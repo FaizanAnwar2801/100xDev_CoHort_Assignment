@@ -10,6 +10,6 @@ function wait(n) {
     return p;
 }
 
-// Promise resolves after "n" seconds of time.d:\assignments-master\week-2\01-async-js\hard (promises)\2-sleep-completely.js
+// Promise resolves after "n" seconds of time.
 
 module.exports = wait;
