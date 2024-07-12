@@ -22,7 +22,7 @@ export const Assignment3 = () => {
         }
         return totalValue;
     },[items]);
-    
+
     // Your code ends here
     return (
         <div>
