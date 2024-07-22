@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
 
 const links = [
-    'assignment1',
-    'assignment2',
+    'assignment - 1',
+    'assignment - 2',
+    'assignment - 3',
+    'assignment - 4',
 ]
 
 const Landing = () => {
