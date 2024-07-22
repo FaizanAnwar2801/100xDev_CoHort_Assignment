@@ -29,7 +29,7 @@ function App() {
         element = {<Assignment2/>}
         />
         <Route 
-        path = '/assignment - 3' 
+        path = 'assignment - 3' 
         element = {<Assignment3/>}
         />
       </Routes>
