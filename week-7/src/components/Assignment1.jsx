@@ -1,5 +1,5 @@
 import '../index.css'
-const Assignment = () => {
+const Assignment1 = () => {
     return (
         <div className='flex items-center justify-center w-screen h-screen bg-slate-100'>
         <div className='w-max'>
@@ -39,4 +39,4 @@ const Assignment = () => {
     )
 }
 
-export default Assignment
+export default Assignment1
