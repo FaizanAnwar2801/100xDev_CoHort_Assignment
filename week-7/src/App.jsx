@@ -2,9 +2,11 @@ import './App.css'
 import './index.css'
 import Assignment1 from './components/Assignment1.jsx'
 import Assignment2 from './components/Assignment2.jsx'
+import Assignment3 from './components/Assignment3.jsx'
 import Landing from './components/Landing.jsx'
 import Navbar from './components/Navbar.jsx'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
+
 
 function App() {
 
@@ -19,12 +21,16 @@ function App() {
         element = {<Landing/>}
         />
         <Route 
-        path = '/assignment1' 
+        path = '/assignment - 1' 
         element = {<Assignment1/>}
         />
         <Route 
-        path = '/assignment2' 
+        path = '/assignment - 2' 
         element = {<Assignment2/>}
+        />
+        <Route 
+        path = '/assignment - 3' 
+        element = {<Assignment3/>}
         />
       </Routes>
       </BrowserRouter>
