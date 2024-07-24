@@ -30,7 +30,10 @@ const Assignment4 = ()=>{
             id=''
             value={wordCount}
             onChange={(e) => {setwordCount(e.target.value)}}
-            onKeyDown={handleSubmit}
+            onKeyDown={(e) =>{
+                if(e.key == "Enter")
+                    handleSubmit();
+            }}
             />
             <button className='p-2 text-white bg-black border-2 border-black rounded-lg' 
             onClick={handleSubmit}>
