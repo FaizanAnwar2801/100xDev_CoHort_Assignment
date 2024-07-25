@@ -6,15 +6,17 @@ const links = [
     'assignment - 3',
     'assignment - 4',
     'assignment - 5',
+    'assignment - 6',
+    'assignment - 7',
 ]
 
 const Landing = () => {
     return (
-        <div className='flex flex-col items-center justify-center w-screen h-screen bg-gradient-to-br from-blue-500 to-purple-500'>
-            <h1 className='mb-8 text-4xl font-bold text-white'>
+        <div className='flex flex-col items-center justify-center w-screen h-screen bg-gradient-to-r from-indigo-900 via-emerald-600 to-cyan-800'>
+            <h1 className='mb-8 text-xl font-bold text-white md:text-2xl lg:text-4xl'>
                 Welcome to Week 7 Assignment
             </h1>
-            <div className='flex flex-wrap gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-4'>
                 {links.map((val, i) => {
                 return (
                     <Link
