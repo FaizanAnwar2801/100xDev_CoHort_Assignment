@@ -31,7 +31,7 @@ const Assignment3 = ()=>{
     }
 
     return(
-        <div className='flex items-center justify-center w-screen py-20'>
+        <div>
             {customRender(anchorElement, '#root')}
         </div>
     )
