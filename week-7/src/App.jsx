@@ -5,16 +5,13 @@ import Assignment2 from './components/Assignment2.jsx'
 import Assignment3 from './components/Assignment3.jsx'
 import Assignment4 from './components/Assignment4.jsx'
 import Assignment5 from './components/Assignment5.jsx'
+import Assignment6 from './components/Assignment6.jsx'
 import Landing from './components/Landing.jsx'
 import Navbar from './components/Navbar.jsx'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
 
-
-
 function App() {
-
-
   return (
     <div>
       <BrowserRouter>
@@ -43,6 +40,10 @@ function App() {
         <Route 
         path = 'assignment - 5' 
         element = {<Assignment5/>}
+        />
+        <Route 
+        path = 'assignment - 6' 
+        element = {<Assignment6/>}
         />
       </Routes>
       </BrowserRouter>
