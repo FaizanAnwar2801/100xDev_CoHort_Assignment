@@ -1,7 +1,4 @@
-const { type } = require("express/lib/response");
-const { required } = require("nodemon/lib/config");
-
-const mongoose = required("mongoose");
+const mongoose = require("mongoose");
 mongoose.connect("mongodb://localhost:27017/paytm");
 
 const userSchema = mongoose.Schema({
