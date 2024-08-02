@@ -1,10 +1,13 @@
 const express = require("express");
-const { json } = require("express/lib/response");
+
 const zod = require("zod");
 const { User } = require("../db");
 const jwt = require("jsonwebtoken")
 const JWT_SECRET = require("../config");
 const userRouter = express.Router();
+const  { authMiddleware } = require("../middleware");
+
+userRouter.use(express.json())
 
 const signupSchema = zod.object({
     username: zod.string().email(),
@@ -27,7 +30,7 @@ userRouter.post("/signup", async (req, res) => {
     })
 
     if (existinguser) {
-        return res.ststus(411).json({
+        return res.status(411).json({
             message: "Incorrect Inputs / Email taken"
         })
     }
