@@ -11,3 +11,4 @@
 | **Week- 5 Assignments**   | 1. Digital Card | 1. https://github.com/FaizanAnwar2801/100xDev_CoHort_Assignment/tree/main/week-5 |
 | **Week- 6 Assignments**   | 1. 1-use-memo<br>2. 2-use-callback<br>3. 3-use-ref | 1. https://github.com/FaizanAnwar2801/100xDev_CoHort_Assignment/tree/main/week-6/1-use-memo<br>2. https://github.com/FaizanAnwar2801/100xDev_CoHort_Assignment/tree/main/week-6/2-use-callback<br>3. https://github.com/FaizanAnwar2801/100xDev_CoHort_Assignment/tree/main/week-6/3-use-ref |
 | **Week- 7 Assignments**   | 1. Full-Assignment | 1. https://github.com/FaizanAnwar2801/100xDev_CoHort_Assignment/tree/main/week-7 |
+| **Week- 8 Assignments**   | 1. Payments-App | 1. https://github.com/FaizanAnwar2801/100xDev_CoHort_Assignment/tree/main/week-8/week-8-paytm |
