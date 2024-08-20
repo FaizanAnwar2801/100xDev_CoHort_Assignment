@@ -4,7 +4,7 @@ compatibility_date = "2024-08-20"
 [vars]
 # MY_VAR = "my-variable"
 
-DATABASE_URL= "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiOWQ3NmJmMDItMDdmZC00ZmRkLWI1MTgtMWZmMTA5NGY5YjQzIiwidGVuYW50X2lkIjoiMDkxMWQwOWJiNzlkMTRhN2VkMTRkOWRlYzVmODlhY2RmYzY2OTYwNWE0MGU4NGQyYjRkYTE2ZTMzMWRhYmIxMCIsImludGVybmFsX3NlY3JldCI6IjU3YjZhYjIwLWE5ODctNGM4Yy1iYzZhLTk4ZGNjYTIxYzUzMyJ9.oWW4YOBkRrfa1arfRb-NT7lnf0zd0sWyeDKOKdvS_vI"
+DATABASE_URL= ""
 JWT_TOKEN = "my@secret"
 
 # [[kv_namespaces]]
