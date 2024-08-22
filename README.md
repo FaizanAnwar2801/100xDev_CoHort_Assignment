@@ -13,3 +13,4 @@
 | **Week- 7 Assignments**   | 1. Full-Assignment | 1. https://github.com/FaizanAnwar2801/100xDev_CoHort_Assignment/tree/main/week-7 |
 | **Week- 8 Assignments**   | 1. Payments-App | 1. https://github.com/FaizanAnwar2801/100xDev_CoHort_Assignment/tree/main/week-8/week-8-paytm |
 | **Week- 9 Assignments**   | 1. Typescript Basics | 1. https://github.com/FaizanAnwar2801/100xDev_CoHort_Assignment/tree/main/week-9 |
+| **Week- 10 Assignments**   | 1. 1-postgres-simple<br>2. 2-prisma-simple | 1. https://github.com/FaizanAnwar2801/100xDev_CoHort_Assignment/tree/main/week-10/1-postgres-simple<br>2. https://github.com/FaizanAnwar2801/100xDev_CoHort_Assignment/tree/main/week-10/2-prisma-simple|
