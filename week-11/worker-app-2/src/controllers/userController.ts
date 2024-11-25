@@ -7,7 +7,7 @@ import { signinSchema, signupSchema } from '../zod/user';
 enum StatusCode {
     BADREQ = 400,
     NOTFOUND = 404,
-    NOTPERMISSIOON = 403,
+    NOTPERMISSION = 403,
 }
 
 export async function signup(c: Context) {

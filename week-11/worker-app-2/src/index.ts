@@ -1,8 +1,8 @@
 import { Hono } from 'hono'
-import { cors } from 'hono/cors'
 import { postRouter } from './routes/postRoutes'
 import { userRouter } from './routes/userRoutes'
 import { tagRouter } from './routes/tagsRoutes'
+import { cors } from 'hono/cors'
 
 const app = new Hono()
 
